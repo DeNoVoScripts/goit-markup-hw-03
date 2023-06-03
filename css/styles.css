@@ -191,17 +191,16 @@ img {
 }
 .team-section {
   background: var(--light);
- 
+ padding: 120px 0;
 }
 .team-list {
   display: flex;
   gap: 24px;
+  padding: 120px 0;
 }
 .images-list {
 }
-.team-list {
-   padding: 120px 0;
-}
+
 .team-member {
   background: var(--white-background);
   border-radius: 0px 0px 4px 4px;
