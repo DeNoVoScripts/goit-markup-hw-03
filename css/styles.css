@@ -48,11 +48,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  margin-right: 76px;
 }
 
 .logo-studio {
   color: var(--dark-color);
-  margin-right: 76px;
+  
 }
 
 .nav-links {
@@ -60,6 +61,7 @@ img {
 .container-nav {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 .nav-item {
 }
