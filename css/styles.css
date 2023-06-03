@@ -181,18 +181,22 @@ img {
 }
 /*-------------------------SECTION 4-----------------------*/
 .team-title {
-
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 .team-section {
   background: var(--light);
+  padding: 120px 0;
 }
-
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .images-list {
 }
 .team-member {
@@ -265,13 +269,4 @@ img {
 
   color: var(--body-text-color);
   letter-spacing: 0.02em;
-}
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* робить елемент невидимим, але все ще зберігає його розмір */
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
 }
