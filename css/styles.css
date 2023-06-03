@@ -15,6 +15,9 @@ body {
   letter-spacing: 0.02em;
   background: var(--white-background);
 }
+img {
+  display: block;
+}
 
 /*--------------------------HEADER------------------------*/
 
