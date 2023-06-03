@@ -92,6 +92,7 @@ img {
 .hero {
   background: var(--dark-color);
   border: 1px solid #000000;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
