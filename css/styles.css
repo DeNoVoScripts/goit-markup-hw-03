@@ -36,7 +36,8 @@ img {
 }
 
 .navbar {
-
+  display: flex;
+  padding: 0 15px
 }
 
 .logo {
@@ -236,6 +237,7 @@ img {
 }
 .footer-link {
   display: inline-block;
+  margin-bottom: 16px; 
 }
 /*===================================PORTFOLIO======================================*/
 .button-section {
