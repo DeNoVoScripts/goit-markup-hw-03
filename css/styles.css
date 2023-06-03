@@ -131,9 +131,8 @@ img {
 .advantages {
   padding: 120px 0
 }
-.advantages-title.visually-hidden {
-
-  margin-bottom: 8px;
+.advantages-title {
+ 
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -145,10 +144,11 @@ img {
 }
 .advantages-item {
 }
-.advantages-item:first-child {
+.advantages-item-text:first-child {
   width: calc((100% - 72px) / 4);
 }
 .advantages-item-title {
+   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
