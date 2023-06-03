@@ -163,12 +163,22 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
+.projects {
+  padding-bottom: 120px;
+}
+.container {
+}
+
 .images-list {
+  display: flex;
+  gap: 24px;
+}
+.list {
 }
 .image-item {
 }
-
 /*-------------------------SECTION 4-----------------------*/
 .team-title {
 
