@@ -123,6 +123,8 @@ img {
 .button:hover,
 .button:focus {
   background-color: var(--pressed-state);
+    border: none;
+
 }
 
 /*-------------------------SECTION 2-----------------------*/
