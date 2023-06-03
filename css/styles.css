@@ -202,16 +202,22 @@ img {
 .team-member {
   background: var(--white-background);
 }
-
+.container-member {
+  padding: 32px 16;
+  
+}
 .team-member-name {
   color: var(--dark-color);
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .team-member-role {
   line-height: 1.5;
+  text-align: center;
 }
 
 /*-------------------------FOOTER------------------------*/
