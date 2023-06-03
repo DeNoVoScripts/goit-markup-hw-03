@@ -37,7 +37,7 @@ img {
 
 .navbar {
   display: flex;
-  padding: 0 15px
+  align-items: center;
 }
 
 .logo {
@@ -52,11 +52,15 @@ img {
 
 .logo-studio {
   color: var(--dark-color);
+  margin-right: 76px;
 }
 
 .nav-links {
 }
-
+.container-nav {
+  width: 1158px;
+  padding: 0 15px;
+}
 .nav-item {
 }
 .nav-link {
