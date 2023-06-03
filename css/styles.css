@@ -129,14 +129,18 @@ img {
 
 /*-------------------------SECTION 2-----------------------*/
 .advantages {
+  padding: 120px 0
 }
-.advantages-title {
+.advantages-title.visually-hidden {
+
+  margin-bottom: 8px;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--dark-color);
 }
 .advantages-list {
+  display: flex;
 }
 .advantages-item {
 }
@@ -166,6 +170,7 @@ img {
 
 /*-------------------------SECTION 4-----------------------*/
 .team-title {
+
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
