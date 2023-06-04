@@ -265,11 +265,14 @@ img {
 }
 /*===================================PORTFOLIO======================================*/
 .button-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filter-title {
 }
 .button-list {
+  display: flex;
 }
 .button-item {
   font-family: 'Roboto', sans-serif;
@@ -289,6 +292,8 @@ img {
   color: var(--white-background);
 }
 .services-list {
+  display: flex;
+  justify-content: center;
 }
 .services-item {
 }
