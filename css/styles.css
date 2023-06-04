@@ -273,6 +273,9 @@ img {
 }
 .button-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 .button-item {
   font-family: 'Roboto', sans-serif;
@@ -284,16 +287,22 @@ img {
   cursor: pointer;
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 .button-item:hover,
 .button-item:focus,
 .button-item:active {
   background-color: var(--pressed-state);
   color: var(--white-background);
+  border: 1px solid transparent;
 }
 .services-list {
   display: flex;
   justify-content: center;
+  flex: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .services-item {
 }
